@@ -18,4 +18,4 @@ In this study;
 - The independent variables get scaled by standard scaler.
 - The dependent variable is label encoded. (1 for poisoned and 0 for edible)
 - The Artificial Neural Network contains 2 hidden layer.
-- The success of this model in estimating whether the mushroom is poisonous or edible is %99 which is measured by accuracy score and confusion matrix.
+- The model's estimating whether the mushroom is poisonous or edible success is %99 which is measured by accuracy score and confusion matrix.
