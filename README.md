@@ -1,4 +1,4 @@
-#UCIsMushroomDataSet
+ # UCIsMushroomDataSet
 
 This is a non-scientific Artificial Neural Networks study on UCI's Mushroom Dataset.
 
