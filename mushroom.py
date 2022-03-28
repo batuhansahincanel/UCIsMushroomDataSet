@@ -4,7 +4,7 @@ import tensorflow as tf
 
 
 dataset = pd.read_csv("agaricus-lepiota.data", sep=",", header=None)
-#print(dataset.info())
+print(dataset.info())
 
 y = dataset.iloc[:,0].values
 X = dataset.iloc[:,1:]
@@ -13,7 +13,7 @@ X = dataset.iloc[:,1:]
 X = X.drop(X.columns[11], axis = 1)
 
 
-#   PreProcessing
+#   Preprocessing
 
 #Encoding X values by Frequency Map
 X_values = {}
